@@ -1,7 +1,7 @@
 'use strict';
 
 describe('pluralize', function() {
-  beforeEach(module('ngPluralize'));
+  beforeEach(module('ngGcPluralize'));
 
   it('should return single version', inject(function(pluralizeFilter) {
     expect(pluralizeFilter({

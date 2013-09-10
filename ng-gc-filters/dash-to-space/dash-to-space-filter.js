@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('ngDashToSpace', [
-  'ngSafeString'
+angular.module('ngGcDashToSpace', [
+  'ngGcSafeString'
 ]).filter('dashToSpace', [
   'safeStringFilter',
   function dashToSpace(safeStringFilter) {

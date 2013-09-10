@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('ngUnderscoreToSpace', [
-  'ngSafeString'
+angular.module('ngGcUnderscoreToSpace', [
+  'ngGcSafeString'
 ]).filter('underscoreToSpace', [
   'safeStringFilter',
   function underscoreToSpace(safeStringFilter) {

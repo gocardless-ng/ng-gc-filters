@@ -1,7 +1,7 @@
 'use strict';
 
 describe('ordinal', function() {
-  beforeEach(module('ngOrdinal'));
+  beforeEach(module('ngGcOrdinal'));
 
   it('2nd', inject(function(ordinalFilter) {
     expect(ordinalFilter('2')).toEqual('2nd');

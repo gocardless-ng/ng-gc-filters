@@ -1,7 +1,7 @@
 'use strict';
 
 describe('parseFloat', function() {
-  beforeEach(module('ngParseFloat'));
+  beforeEach(module('ngGcParseFloat'));
 
   it('handles zeroes', inject(function(parseFloatFilter) {
     expect(parseFloatFilter('0.0')).toBe(0);

@@ -1,7 +1,7 @@
 'use strict';
 
 describe('toDateTime', function() {
-  beforeEach(module('ngToDateTime'));
+  beforeEach(module('ngGcToDateTime'));
 
   it('formats date to start of day', inject(function(toDateTimeFilter) {
     expect(toDateTimeFilter('2013-10-10')).toEqual('2013-10-10T00:00:00');

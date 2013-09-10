@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('ngCapitalizeEach', [
-  'ngCapitalize',
-  'ngSafeString'
+angular.module('ngGcCapitalizeEach', [
+  'ngGcCapitalize',
+  'ngGcSafeString'
 ]).filter('capitalizeEach', [
   'safeStringFilter', 'capitalizeFilter',
   function capitalizeEach(safeStringFilter, capitalizeFilter) {

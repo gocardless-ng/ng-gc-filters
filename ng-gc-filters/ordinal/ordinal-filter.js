@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngOrdinal', [])
+angular.module('ngGcOrdinal', [])
 .filter('ordinal', [
   '$window',
   function ordinal($window) {

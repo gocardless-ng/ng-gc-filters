@@ -1,7 +1,7 @@
 'use strict';
 
 describe('pluralize', function() {
-  beforeEach(module('ngSafeString'));
+  beforeEach(module('ngGcSafeString'));
 
   it('returns striing', inject(function(safeStringFilter) {
     expect(safeStringFilter('payment')).toEqual('payment');

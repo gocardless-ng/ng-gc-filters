@@ -1,7 +1,7 @@
 'use strict';
 
 describe('capitalize', function() {
-  beforeEach(module('ngCapitalize'));
+  beforeEach(module('ngGcCapitalize'));
 
   it('should capitalize', inject(function(capitalizeFilter) {
     expect(capitalizeFilter('gocardless')).toEqual('Gocardless');

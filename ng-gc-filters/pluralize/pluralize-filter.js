@@ -4,7 +4,7 @@
 //
 // Re-write me
 // Use angulars pluralize directive as a guide
-angular.module('ngPluralize', [])
+angular.module('ngGcPluralize', [])
 .filter('pluralize', [
   function pluralize() {
 

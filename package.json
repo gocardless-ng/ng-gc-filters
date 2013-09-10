@@ -1,12 +1,12 @@
 {
-  "name": "ng-filters",
+  "name": "ng-gc-filters",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gocardless-ng/ng-filters.git"
+    "url": "git://github.com/gocardless-ng/ng-gc-filters.git"
   },
   "bugs": {
-    "url": "http://github.com/gocardless-ng/ng-filters/issues"
+    "url": "http://github.com/gocardless-ng/ng-gc-filters/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngToDateTime', [
+angular.module('ngGcToDateTime', [
   'gc.utils'
 ])
 .filter('toDateTime', [

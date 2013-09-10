@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngSafeString', [])
+angular.module('ngGcSafeString', [])
 .filter('safeString', [
   function safeString() {
 

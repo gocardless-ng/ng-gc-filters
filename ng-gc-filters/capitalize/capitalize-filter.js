@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('ngCapitalize', [
-  'ngSafeString'
+angular.module('ngGcCapitalize', [
+  'ngGcSafeString'
 ]).filter('capitalize', [
   'safeStringFilter',
   function capitalize(safeStringFilter) {

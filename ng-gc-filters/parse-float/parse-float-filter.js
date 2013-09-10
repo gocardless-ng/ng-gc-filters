@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngParseFloat', [
+angular.module('ngGcParseFloat', [
 ]).filter('parseFloat', [
   '$window',
   function parseFloat($window) {
