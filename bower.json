@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",
-    "ng-utils": "git@github.com:gocardless-ng/ng-utils.git",
+    "ng-gc-utils": "git@github.com:gocardless-ng/ng-gc-utils.git",
     "momentjs": "~2.1.0"
   },
   "devDependencies": {
