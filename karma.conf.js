@@ -17,7 +17,8 @@ module.exports = function(config) {
       // Specs helpers
       'components/jasmine-helpers/*.js',
 
-      'ng-gc-filters/**/*.js'
+      'ng-gc-filters/**/*.js',
+      'ng-gc-filters.js'
     ],
 
 
