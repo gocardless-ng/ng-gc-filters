@@ -12,7 +12,7 @@ module.exports = function(config) {
       'components/bower-angular/angular.js',
       'components/bower-angular-mocks/angular-mocks.js',
       'components/momentjs/moment.js',
-      'components/ng-utils/**/*.js',
+      'components/ng-gc-utils/**/*.js',
 
       // Specs helpers
       'components/jasmine-helpers/*.js',
