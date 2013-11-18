@@ -9,5 +9,6 @@ angular.module('ngGcFilters', [
   'ngGcParseFloat',
   'ngGcSafeString',
   'ngGcToDateTime',
-  'ngGcUnderscoreToSpace'
+  'ngGcUnderscoreToSpace',
+  'ngGcCurrencySymbolFilter'
 ]);
