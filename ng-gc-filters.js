@@ -10,5 +10,7 @@ angular.module('ngGcFilters', [
   'ngGcSafeString',
   'ngGcToDateTime',
   'ngGcUnderscoreToSpace',
-  'ngGcCurrencySymbolFilter'
+  'ngGcCurrencySymbolFilter',
+  'ngGcPrettyJsonFilter',
+  'ngGcKeyvalueFilter'
 ]);
